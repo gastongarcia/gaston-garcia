@@ -3,21 +3,59 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Pic from "../components/images/pic"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Gatsby Tailwind Simple Setup" />
+    <SEO title="Gastón García - Consultor &amp; Desarrollador Digital" />
 
-    <div className="md:w-1/2 w-10/12 mx-auto bg-gray-300 mt-5 p-3 rounded-lg">
-      <p className="text-lg my-5">Gatsby &amp; Tailwind</p>
-      <p className="text-base mb-5">This is a very simple setup of <a href="https://tailwindcss.com/" target="_blank" className="underline">Tailwind</a> in a <a href="https://www.gatsbyjs.org" target="_blank" className="underline">Gatsby</a> project. The only plugins it uses are <a href="https://www.gatsbyjs.org/packages/gatsby-plugin-postcss/?=post" target="_blank" className="underline">Gatsby Post CSS</a> and <a href="https://www.gatsbyjs.org/packages/gatsby-plugin-purgecss/?=purge" target="_blank" className="underline">Gatsby Purge CSS</a>.</p>
+    <div className="w-4/5 md:w-5/12 mx-auto">
+      <h1>Gastón García</h1>
+      <Pic />
+      <p>
+        Soy un consultor, diseñador y desarrollador web con 20 años de
+        experiencia. Abordo los proyectos web de forma metódica. Disfruto de
+        ayudar a empresas y personas a descubrir y planear lo que realmente
+        necesitan antes de empezar un sitio web. El planeamiento hace la
+        diferencia en todo proyecto digital: reduce costos innecesarios y evita
+        dolores de cabeza en el desarrollo.
+      </p>
+
+      <p>
+        He estado involucrado en proyectos digitales para marcas como{" "}
+        <span className="brand">Movistar</span>,{" "}
+        <span className="brand">Uber</span>,{" "}
+        <span className="brand">Trident</span>,{" "}
+        <span className="brand">Halls</span>,{" "}
+        <span className="brand">Legrand</span>,{" "}
+        <span className="brand">Mitsubishi</span>,{" "}
+        <span className="brand">Mercedes-Benz</span> y{" "}
+        <span className="brand">Oreo</span>. He colaborado en el desarrollo de
+        sitios web de empresas como{" "}
+        <span className="brand">2CostaRicaRealEstate</span>,{" "}
+        <span className="brand">Constructora Icon</span> y{" "}
+        <span className="brand">La Fabbrica</span>. He sido gestor de proyectos
+        de activismo digital como “Fuera Justo Orozco” y “Costa Rica Decí que
+        Sí”.
+      </p>
+
+      <p>Escríbame para trabajar en:</p>
+      <ul className="list-disc ml-8">
+        <li>Darle un análisis de un proyecto digital actual</li>
+        <li>Planificar un proyecto digital nuevo</li>
+        <li>Trabajar con su equipo en mejorar un sitio web</li>
+        <li>Educar a su equipo sobre desarrollo web</li>
+      </ul>
+
+      <p>
+        Si usted tiene un sitio web que actualmente no le da resultados, o
+        quiere iniciar un proyecto nuevo, contácteme para hacer un plan.
+      </p>
+
+      <p>
+        <a href="mailto:gaston@gaston-garcia.com">gaston@gaston-garcia.com</a>
+      </p>
     </div>
-
-    <div className="md:w-1/2 w-10/12 mx-auto bg-gray-200 mt-5 p-3 rounded-lg">
-      <p className="text-lg my-5">Setup</p>
-      <p className="text-base mb-5">You can download or clone the source from it's <a href="https://github.com/gastongarcia/Gatsby-Tailwind-Simple-Setup" target="_blank" className="underline">Github repo here</a>. Hope it helps.</p>
-    </div>
-
   </Layout>
 )
 

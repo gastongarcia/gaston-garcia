@@ -60,3 +60,32 @@
     * @import "utilities/background-patterns";
     * @import "utilities/skew-transforms";
     */
+
+body {
+  border-color: #cfd8dc;
+  border-style: solid;
+  border-width: 0.65em 0.5em 0.6em;
+  font-family: Roboto, sans-serif;
+  font-size: 1.1em;
+  color: #555;
+}
+h1 {
+  font-family: Rubik, serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #37474f;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+p {
+  @apply my-5;
+}
+p:first-of-type {
+  @apply mt-10;
+}
+a {
+  @apply text-gray-900;
+}
+.brand {
+  color: #222;
+}
