@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Tailwind Basic Setup`,
-    description: `The simples Tailwind setup possible in a Gatsby project`,
+    title: `Gastón García - Consultor y Desarrollador Web`,
+    description: `Consultoría en comunicación y desarrollo digital. Vivo en Costa Rica.`,
     author: `@GastonGarciaO`,
   },
   plugins: [
