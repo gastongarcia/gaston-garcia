@@ -7,6 +7,18 @@ import Pic from "../components/images/pic"
 
 const IndexPage = () => (
   <Layout>
+    <Helmet>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138241855-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-138241855-1');
+    </script>
+
+    </Helmet>
     <SEO title="Gastón García - Consultor &amp; Desarrollador Digital" />
 
     <div className="w-4/5 md:w-5/12 mx-auto">
